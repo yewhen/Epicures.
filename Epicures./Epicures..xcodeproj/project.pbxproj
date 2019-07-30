@@ -3,16 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0014975322E23637004E4A55 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0014975222E23637004E4A55 /* MealViewController.swift */; };
 		0021057022E1F3F80045EE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021056F22E1F3F80045EE13 /* AppDelegate.swift */; };
-		0021057222E1F3F80045EE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021057122E1F3F80045EE13 /* ViewController.swift */; };
+		0021057222E1F3F80045EE13 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021057122E1F3F80045EE13 /* LoginViewController.swift */; };
 		0021057522E1F3F80045EE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0021057322E1F3F80045EE13 /* Main.storyboard */; };
 		0021057722E1F3F90045EE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0021057622E1F3F90045EE13 /* Assets.xcassets */; };
 		0021057A22E1F3F90045EE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0021057822E1F3F90045EE13 /* LaunchScreen.storyboard */; };
 		0021058522E1F3F90045EE13 /* Epicures_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021058422E1F3F90045EE13 /* Epicures_UITests.swift */; };
+		0024293422ED44C90075757A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0024293222ED44BD0075757A /* RatingControl.swift */; };
+		0024293622EE29180075757A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0024293522EE29180075757A /* Meal.swift */; };
+		0024293822EE574B0075757A /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0024293722EE574B0075757A /* MealTableViewCell.swift */; };
+		0024293A22EE5AC60075757A /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0024293922EE5AC60075757A /* MealTableViewController.swift */; };
+		005FC41F22EEEF8B006B3AAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 005FC41E22EEEF8B006B3AAF /* GoogleService-Info.plist */; };
+		005FC42122EEFDBD006B3AAF /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FC42022EEFDBD006B3AAF /* StartViewController.swift */; };
+		005FC42322EEFF41006B3AAF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FC42222EEFF41006B3AAF /* SignUpViewController.swift */; };
+		005FC42522EF532D006B3AAF /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005FC42422EF532D006B3AAF /* RestaurantViewController.swift */; };
+		21CE242E3F84E245A266D230 /* Pods_Epicures_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872D47EC1A837285B828D275 /* Pods_Epicures_.framework */; };
+		D7F30D5D76D947F1D0ACCF9C /* Pods_Epicures_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7417870A49619B7527E0F46A /* Pods_Epicures_UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0014975222E23637004E4A55 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		0021056C22E1F3F80045EE13 /* Epicures..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epicures..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0021056F22E1F3F80045EE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0021057122E1F3F80045EE13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0021057122E1F3F80045EE13 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0021057422E1F3F80045EE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0021057622E1F3F90045EE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0021057922E1F3F90045EE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +48,20 @@
 		0021058022E1F3F90045EE13 /* Epicures.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Epicures.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0021058422E1F3F90045EE13 /* Epicures_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epicures_UITests.swift; sourceTree = "<group>"; };
 		0021058622E1F3F90045EE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0024293222ED44BD0075757A /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = Epicures./RatingControl.swift; sourceTree = SOURCE_ROOT; };
+		0024293522EE29180075757A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		0024293722EE574B0075757A /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		0024293922EE5AC60075757A /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		005FC41E22EEEF8B006B3AAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		005FC42022EEFDBD006B3AAF /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		005FC42222EEFF41006B3AAF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		005FC42422EF532D006B3AAF /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		446AE4FD2E25FEB6E339F908 /* Pods-Epicures..debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epicures..debug.xcconfig"; path = "Target Support Files/Pods-Epicures./Pods-Epicures..debug.xcconfig"; sourceTree = "<group>"; };
+		4F117004FB13ABAC8B3C40EA /* Pods-Epicures.UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epicures.UITests.debug.xcconfig"; path = "Target Support Files/Pods-Epicures.UITests/Pods-Epicures.UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7417870A49619B7527E0F46A /* Pods_Epicures_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epicures_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872D47EC1A837285B828D275 /* Pods_Epicures_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epicures_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E480A8663A1F59BA0926F9 /* Pods-Epicures..release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epicures..release.xcconfig"; path = "Target Support Files/Pods-Epicures./Pods-Epicures..release.xcconfig"; sourceTree = "<group>"; };
+		F89D870B3B32B01F0765025A /* Pods-Epicures.UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epicures.UITests.release.xcconfig"; path = "Target Support Files/Pods-Epicures.UITests/Pods-Epicures.UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CE242E3F84E245A266D230 /* Pods_Epicures_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F30D5D76D947F1D0ACCF9C /* Pods_Epicures_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +90,8 @@
 				0021056E22E1F3F80045EE13 /* Epicures. */,
 				0021058322E1F3F90045EE13 /* Epicures.UITests */,
 				0021056D22E1F3F80045EE13 /* Products */,
+				ED89BF0F8B876905E60DEE17 /* Pods */,
+				C684034036560333B4F36096 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +108,20 @@
 			isa = PBXGroup;
 			children = (
 				0021056F22E1F3F80045EE13 /* AppDelegate.swift */,
-				0021057122E1F3F80045EE13 /* ViewController.swift */,
+				0024293222ED44BD0075757A /* RatingControl.swift */,
+				0024293522EE29180075757A /* Meal.swift */,
+				0021057122E1F3F80045EE13 /* LoginViewController.swift */,
 				0021057322E1F3F80045EE13 /* Main.storyboard */,
+				005FC42422EF532D006B3AAF /* RestaurantViewController.swift */,
+				005FC42222EEFF41006B3AAF /* SignUpViewController.swift */,
+				005FC42022EEFDBD006B3AAF /* StartViewController.swift */,
+				0024293922EE5AC60075757A /* MealTableViewController.swift */,
+				0024293722EE574B0075757A /* MealTableViewCell.swift */,
 				0021057622E1F3F90045EE13 /* Assets.xcassets */,
 				0021057822E1F3F90045EE13 /* LaunchScreen.storyboard */,
 				0021057B22E1F3F90045EE13 /* Info.plist */,
+				0014975222E23637004E4A55 /* MealViewController.swift */,
+				005FC41E22EEEF8B006B3AAF /* GoogleService-Info.plist */,
 			);
 			path = Epicures.;
 			sourceTree = "<group>";
@@ -96,6 +135,26 @@
 			path = Epicures.UITests;
 			sourceTree = "<group>";
 		};
+		C684034036560333B4F36096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				872D47EC1A837285B828D275 /* Pods_Epicures_.framework */,
+				7417870A49619B7527E0F46A /* Pods_Epicures_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED89BF0F8B876905E60DEE17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				446AE4FD2E25FEB6E339F908 /* Pods-Epicures..debug.xcconfig */,
+				C1E480A8663A1F59BA0926F9 /* Pods-Epicures..release.xcconfig */,
+				4F117004FB13ABAC8B3C40EA /* Pods-Epicures.UITests.debug.xcconfig */,
+				F89D870B3B32B01F0765025A /* Pods-Epicures.UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0021058922E1F3F90045EE13 /* Build configuration list for PBXNativeTarget "Epicures." */;
 			buildPhases = (
+				5615F4BD031FC6D19A9124EC /* [CP] Check Pods Manifest.lock */,
 				0021056822E1F3F80045EE13 /* Sources */,
 				0021056922E1F3F80045EE13 /* Frameworks */,
 				0021056A22E1F3F80045EE13 /* Resources */,
+				9238273F626B803AFD450E0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0021058C22E1F3F90045EE13 /* Build configuration list for PBXNativeTarget "Epicures.UITests" */;
 			buildPhases = (
+				2843BAA91F71E1FD4CD86A5A /* [CP] Check Pods Manifest.lock */,
 				0021057C22E1F3F90045EE13 /* Sources */,
 				0021057D22E1F3F90045EE13 /* Frameworks */,
 				0021057E22E1F3F90045EE13 /* Resources */,
@@ -178,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0021057A22E1F3F90045EE13 /* LaunchScreen.storyboard in Resources */,
+				005FC41F22EEEF8B006B3AAF /* GoogleService-Info.plist in Resources */,
 				0021057722E1F3F90045EE13 /* Assets.xcassets in Resources */,
 				0021057522E1F3F80045EE13 /* Main.storyboard in Resources */,
 			);
@@ -192,12 +255,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2843BAA91F71E1FD4CD86A5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Epicures.UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5615F4BD031FC6D19A9124EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Epicures.-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9238273F626B803AFD450E0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Epicures./Pods-Epicures.-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Epicures./Pods-Epicures.-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Epicures./Pods-Epicures.-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0021056822E1F3F80045EE13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0021057222E1F3F80045EE13 /* ViewController.swift in Sources */,
+				0024293622EE29180075757A /* Meal.swift in Sources */,
+				005FC42522EF532D006B3AAF /* RestaurantViewController.swift in Sources */,
+				005FC42122EEFDBD006B3AAF /* StartViewController.swift in Sources */,
+				0024293422ED44C90075757A /* RatingControl.swift in Sources */,
+				0024293A22EE5AC60075757A /* MealTableViewController.swift in Sources */,
+				0024293822EE574B0075757A /* MealTableViewCell.swift in Sources */,
+				0014975322E23637004E4A55 /* MealViewController.swift in Sources */,
+				005FC42322EEFF41006B3AAF /* SignUpViewController.swift in Sources */,
+				0021057222E1F3F80045EE13 /* LoginViewController.swift in Sources */,
 				0021057022E1F3F80045EE13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +493,7 @@
 		};
 		0021058A22E1F3F90045EE13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446AE4FD2E25FEB6E339F908 /* Pods-Epicures..debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +512,7 @@
 		};
 		0021058B22E1F3F90045EE13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E480A8663A1F59BA0926F9 /* Pods-Epicures..release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +531,7 @@
 		};
 		0021058D22E1F3F90045EE13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F117004FB13ABAC8B3C40EA /* Pods-Epicures.UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -414,6 +552,7 @@
 		};
 		0021058E22E1F3F90045EE13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89D870B3B32B01F0765025A /* Pods-Epicures.UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
